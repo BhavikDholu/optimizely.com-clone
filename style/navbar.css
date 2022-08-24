@@ -1,0 +1,51 @@
+#navbar {
+  display: flex;
+  width: 85%;
+  margin: 10px auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#pages > ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+#pages button {
+  border: none;
+  font-size: 14px;
+}
+#pages {
+  padding-top: 5px;
+}
+
+#searchnav > ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  align-items: center;
+}
+#searchnav button {
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+#searchnav {
+  margin-left: 10%;
+  padding-top: 5px;
+}
+
+#searchnav img {
+  margin-right: 3px;
+}
+#getstarted > button {
+  border: none;
+  border-radius: 22px;
+  background-color: blue;
+  color: white;
+  padding: 14px 32px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+}
