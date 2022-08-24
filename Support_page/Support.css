@@ -1,0 +1,88 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Intro */
+
+#intro{
+    display: grid;
+    grid-template-columns: 6% 45% 49%;
+    margin-top: 30px;
+}
+#intro>div:nth-child(1){
+    background-color: #080736;
+}
+#intro>div:nth-child(3){
+    background-color: #f0f2f3;
+    padding-left: 10%;
+}
+#intro>div:nth-child(3)>h1{
+    font-size: 50px;
+    margin-top: 25%;
+}
+#intro>div:nth-child(3)>p{
+    font-size: 20px;
+    width: 90%;
+    margin-top: -25px;
+}
+#intro>div>img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Options */
+
+#option{
+    width: 85%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    cursor: pointer;
+}
+#option>div>svg{
+    margin: 20px;
+    padding-left: 75%;
+}
+#option>div>svg:hover{
+    padding-left: 80%;
+}
+.desc{
+    height: 50%;
+    padding: 5% 10%;
+}
+.desc>p{
+    margin-top: -10px;
+    font-size: 17px;
+}
+#option>div:nth-child(1){
+    background-color: #ff8110;
+}
+#option>div:nth-child(2){
+    background-color: #861dff;
+    color: white;
+}
+#option>div:nth-child(3){
+    background-color: #445669;
+    color: white;
+}
+#option>div:nth-child(4){
+    background-color: #00ccff;
+}
+#option>div:nth-child(5){
+    background-color: #0037ff;
+    color: white;
+}
+#option>div:nth-child(6){
+    background-color: #ffcc00;
+}
+#option>div:nth-child(7){
+    background-color: #445669;
+    color: white;
+}
+#option>div:nth-child(8){
+    background-color: #861dff;
+    color: white;
+}
+#option>div:nth-child(9){
+    background-color: #ff8110;
+}
