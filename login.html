@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <style>
+      #background{
+        width: 100%;
+        height: 96vh;
+        /* border: 1px solid red; */
+        overflow: hidden;
+        position: relative;
+      }
+      #background>div{
+        border:400px solid #ffc105;
+        border-radius: 50%;
+        width: 100%;
+        height: 100vh;
+        transform: rotate(160deg);
+        margin-left: -75%;
+        margin-top: -45%;
+        opacity: .7;
+      }
+      #form{
+        position: absolute;
+        top: 10%;
+        left: 18%;
+        width: 55%;
+        height: 70vh;
+        box-shadow: rgba(171, 172, 173, 0.4) 0px 0px 0px 2px, rgba(228, 230, 231, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.664) 0px 1px 0px inset;
+        background-color: transparent;
+        border-radius: 10px;
+        /* opacity: .4; */
+        display: flex;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+      img{
+        width: 100%;
+        border-radius: 10px;
+      }
+      #form>div{
+        width: 50%;
+      }
+      #form>div:nth-child(2){
+        padding-top: 15px;
+      }
+      input{
+        width: 70%;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-bottom: 25px;
+        height: 23px;
+      }
+      label{
+        color: rgb(88, 88, 88);
+        font-size: .9rem;
+      }
+      #form>div>div{
+        display: flex;
+        align-items: center;
+      }
+      p{
+        margin-top: -10px;
+      }
+      a{
+        text-decoration: none;
+      }
+      button{
+        margin-top: 25px;
+        background-color: #0037ff;
+        color: white;
+        border: none;
+        width: 60px;
+        height: 25px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+    </style>
+</head>
+<body>
+    <div id="background"><div></div></div>
+    <div id="form">
+       <div>
+        <h2>Log In</h2>
+        <label>Email</label><br>
+        <input type="text" id="email"><br>
+        <label>Password</label><br>
+        <input type="text" id="password">
+        <p><a href="">Need help logging in?</a></p>
+        <div>
+            <input type="checkbox" id="chekbox" style="width: 15px; margin-bottom: 0px;">
+            <label>Keep me logged in</label>
+        </div>
+        <button>Log In</button>
+        <p><a href="">Log in using SSO</a></p>
+       </div>
+       <div>
+        <img src="https://www.optimizely.com/contentassets/653c45b03b4943bbbc64d7606eae3f99/lp_google-hero-01-01.svg" alt="">
+        <img src="https://www.optimizely.com/contentassets/dd183917ec424f278ec011f68f6526eb/ads_gartnerreport_final_b_teaser_1200x628.png?width=772&height=434&mode=crop" alt="">
+       </div>
+    </div>
+</body>
+</html>
