@@ -24,7 +24,7 @@
 #subrow-1-1 p {
   text-align: left;
   margin: 20px 20px 0px 50px;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 25px;
 }
 #subrow-1-2 {
@@ -41,7 +41,8 @@
   overflow: hidden;
   text-align: center;
   border-radius: 10px;
+  font-size: 14px;
 }
 #errordiv p {
-  margin: 65px;
+  margin: 45px;
 }
