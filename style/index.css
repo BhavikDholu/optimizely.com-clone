@@ -40,6 +40,7 @@
   color: white;
   overflow: hidden;
   text-align: center;
+  border-radius: 10px;
 }
 #errordiv p {
   margin: 65px;
