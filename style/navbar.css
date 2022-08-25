@@ -5,15 +5,22 @@
   justify-content: space-around;
   align-items: center;
 }
-
 #pages > ul {
   display: flex;
   gap: 10px;
   list-style: none;
+  margin: 0;
 }
 #pages button {
   border: none;
   font-size: 14px;
+  background: none;
+  padding: 20px 0px;
+  height: 100%;
+}
+#pages button:hover {
+  color: blue;
+  border-bottom: 5px solid blue;
 }
 #pages {
   padding-top: 5px;
@@ -30,6 +37,12 @@
   display: flex;
   align-items: center;
   font-size: 14px;
+  background: none;
+  padding: 20px 0px;
+}
+#searchnav button:hover {
+  color: blue;
+  border-bottom: 5px solid blue;
 }
 #searchnav {
   margin-left: 10%;
@@ -48,4 +61,8 @@
   font-size: 17px;
   font-weight: 500;
   line-height: 23px;
+}
+
+button:hover,img:hover{
+  cursor: pointer;
 }
