@@ -5,6 +5,8 @@
   justify-content: space-around;
   align-items: center;
 }
+/* #navlogo {
+} */
 #pages > ul {
   display: flex;
   gap: 10px;
@@ -31,6 +33,7 @@
   gap: 10px;
   list-style: none;
   align-items: center;
+  margin: 0;
 }
 #searchnav button {
   border: none;
@@ -63,6 +66,7 @@
   line-height: 23px;
 }
 
-button:hover,img:hover{
+button:hover,
+img:hover {
   cursor: pointer;
 }
