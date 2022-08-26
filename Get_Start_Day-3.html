@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Blue{
+            background-color: rgb(1, 1, 48);
+            color: white;
+            height: 370px;
+        }
+        #BlueH1{
+           padding-top: 110px;
+           padding-left: 100px;
+           font-size: 47px;
+        }
+        /* ***************************************************** Form *********************************** */
+        #form{
+            background-color: rgb(242, 242, 242);
+            width: 750px;
+            margin-top: -300px;
+            margin-left: 700px;
+            padding-bottom: 70px;
+        }
+        input{
+            border: 0;
+            outline: 0;
+            background: transparent;
+            border-bottom: 1px solid black;
+            margin-left: 50px;
+        }
+
+  /* **************************************************** happy customers ********************************* */
+  #customer{
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+#logo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px 20px;
+    text-align: center;
+    margin-top: 4%;
+}
+#logo>div>img{
+    width: 40%;
+}
+#customer>h1{
+    text-align: start;
+    font-size: 40px;
+}
+#customer>button{
+    margin: 2% auto;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    color: #083cff;
+    background-color: #ccd7ff;
+    cursor: pointer;
+}
+#customer>button:hover{
+    background-color: #0037ff;
+    color: white;
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="Blue">
+    <h1 id="BlueH1">Ready to take your digital <br>
+        experiences to the next <br>
+        level?</h1>
+    </div>  
+
+    <!--************************************* Form **************************************************-->
+        <form action="" id="form">
+            <h1 style="padding-top: 50px; padding-left: 50px;">First, we need to know a couple of things <br> about you</h1>
+            <input type="text" placeholder="First name*" size="25px" style="width: 300px;">
+            <input type="text" placeholder="Last name*" style="width: 300px;"> <br><br><br>
+            <input type="text" placeholder="Work email*" style="width: 660px;"> <br><br><br>
+            <input type="text" placeholder="Company*" style="width: 300px;">
+            <input type="text" placeholder="Job title*" style=" width: 300px;"> <br><br><br>
+            <input type="text" placeholder="Phone number (optional)" style="width: 300px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="" id="" style="background: transparent; border: 0; margin-left: -37px;">
+                <option value="">India</option>
+                <option value="">US</option>
+                <option value="">UK</option>
+                <option value="">China</option>
+            </select> <br><br><br>
+            <input type="text" placeholder="What products are you interested in? (optional)" style="width: 300px;"> <br><br><br>
+            <p style="margin-left: 50px;">Optimizely will store and process your personal data as described in our <a href="" style="text-decoration: none;"> Privacy Policy </a>. <br> You can opt out at any time.</p>
+            <input type="submit" style="outline: none; color: white; border-radius: 30px; width: 100px; height: 35px; background-color: blue;" placeholder="Submit">
+        </form>
+
+    <!--************************************ White background ********************************************-->
+    <p style="margin-top: -280px; margin-left: 150px; font-size: 18px;"> <b> Hear from a real human! </b><br> <br> <br>
+       &nbsp;&nbsp;&nbsp; 1.    Fill out this form and tell us what you <br>
+       &nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp; can about your needs in the additional <br> 
+       &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp; info field. <br>
+        
+       &nbsp;&nbsp;&nbsp; 2.    An Optimizer will reach out to set up a <br>
+       &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp; discovery meeting with you. <br>
+        
+       &nbsp;&nbsp;&nbsp; 3.    Then, we will prepare and schedule you <br> 
+       &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;  a customized demo. </p>
+
+    <!--************************************ happy customers ************************************************-->
+    <div id="customer">
+        <h1>Trusted by 9,000+ businesses and millions of happy customers</h1>
+        <div id="logo">
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/ebay_logo.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/dolby_logo_2019.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/sme.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/new_era_logo.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/pizza_hut_logo.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/fjall_raven_logo.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/filippa-k-wien.png?width=200&height=130">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/moco-food-logo-blue.svg">
+            </div>
+        </div>
+        <button>See our customer stories</button>
+    </div>
+
+</body>
+</html>
