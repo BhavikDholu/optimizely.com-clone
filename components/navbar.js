@@ -1,5 +1,5 @@
 let navbar = () => {
-  return ` <div id="logo">
+  return ` <div id="navlogo">
   <img
     src="https://www.optimizely.com/globalassets/02.-global-images/navigation/optimizely_logo_navigation.svg"
     alt="logo"

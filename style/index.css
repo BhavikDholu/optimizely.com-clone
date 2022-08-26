@@ -46,3 +46,101 @@
 #errordiv p {
   margin: 45px;
 }
+
+#customer {
+  width: 85%;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 10%;
+}
+#logo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 20px;
+  text-align: center;
+  margin-top: 4%;
+}
+#logo > div > img {
+  width: 40%;
+}
+#customer > h1 {
+  text-align: start;
+  font-size: 35px;
+}
+#customer > button {
+  margin: 2% auto;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 50px;
+  color: #083cff;
+  background-color: #ccd7ff;
+  cursor: pointer;
+}
+#customer > button:hover {
+  background-color: #0037ff;
+  color: white;
+}
+
+/* digital div style ---->*/
+
+#digital-div {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+#digital-black {
+  width: 32%;
+  background-color: rgb(12, 12, 49);
+  overflow-x: visible;
+  color: white;
+}
+#digital-blue {
+  width: 68%;
+  background-color: blue;
+}
+
+#video-div {
+  width: fit-content;
+  position: relative;
+  z-index: 5;
+  margin-left: 20%;
+  margin-bottom: 20%;
+}
+#text-div {
+  color: white;
+  margin-left: 30%;
+  margin-top: 9%;
+  display: block;
+  width: 65%;
+}
+#text-div h3 {
+  font-size: 39px;
+  margin: 16px;
+}
+#text-div p {
+  font-size: 18px;
+  margin: 0px 16px;
+}
+#text-div > :nth-child(1) {
+  font-size: 25px;
+}
+#text-div a {
+  color: white;
+  margin: 20px 16px;
+  display: flex;
+  width: 100%;
+  font-size: 16px;
+}
+
+#text-div a:hover {
+  color: rgb(7, 7, 27);
+}
+
+#text-div span > svg {
+  width: 7%;
+  margin-left: 9px;
+  fill: white;
+}
