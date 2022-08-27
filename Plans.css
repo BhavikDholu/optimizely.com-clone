@@ -1,0 +1,281 @@
+#main{
+        
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 150px;
+}
+#heading>h1{
+    margin-left: 110px;
+    margin-bottom: 0px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    width: 80%;
+    gap: 20px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+/* plaing and pricing div */
+#div_a{
+    /* border: 1px solid black; */
+    width: 340px;
+    height: 1100px;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+#border{
+    background-color: #861dff;
+    border-radius: 10px 10px 0px 0px;
+}
+#img_div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 150px;
+    /* border: 1px solid green ; */
+    margin: auto;
+    margin-left: 40px;
+}
+#img_div_size{
+    height:  40PX;
+}
+#img_main{
+        /* border: 1px solid blue; */
+        width: 40px;
+        height: 40px;
+        margin: auto;
+    }
+ #text_align{
+        text-align:left;
+        /* border: 1px solid red; */
+        width: 230px;
+        margin: auto;
+        margin-left: 40px;
+     }
+.Options_tick{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid red; */
+    width: 250px;
+    margin: auto;
+  }
+  img{
+    height: 20px;
+  }
+  .img_div{
+    /* border: 1px solid rgb(118, 20, 216); */
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+
+  }
+  .text_div{
+    /* border: 1px solid black; */
+    margin-left: -80px;
+    height: 50px;
+   padding: auto;
+   margin-top: 0px;
+    
+  } 
+  .text_tickmark{
+    margin-top: 0px;
+  }
+  .btn_pp{
+  background-color:#0037fe;
+  color: white;
+  border: 0px;
+  }
+
+  
+/* better together section */
+
+#gray_line{
+    width: 250px;
+    height: 1px;
+    margin: auto;
+    background-color: gray;
+}
+.slider_hendle{
+    margin-left: 30px;
+}
+
+#img_div_size_dd{
+height: 30px;
+}
+.learn_more{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid red; */
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    margin-top:40px;
+    /* margin-left:20px; */
+}
+.learnmore{
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.button__svg_learnmore{
+    /* border: 1px solid black; */
+    width: 30px;
+    margin: auto;
+    
+}
+.button__svg_learnmore:hover{
+    margin-left: 10px;
+}
+#button_svg_div{
+    /* border: 1px solid green; */
+    margin: auto;
+}
+.btn_div-2{
+    /* border: 1px solid red; */
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+.btn_pp{
+    height: 50px;
+}
+
+
+/* upper border  */
+  #border_div2{
+    background-color:#f5911e;
+        border-radius: 10px 10px 0px 0px;
+  }
+  
+  #border_div3{
+    background-color:#f0c003;
+        border-radius: 10px 10px 0px 0px;
+  }
+  #border_div4{
+    background-color:#02cbff;
+        border-radius: 10px 10px 0px 0px;
+  }
+  #border_div5{
+    background-color:#3be17f;
+        border-radius: 10px 10px 0px 0px;
+  }
+  #border_div6{
+    background-color:#080736;
+        border-radius: 10px 10px 0px 0px;
+  }
+  #need_more{
+    margin-left: 0px;
+    background-color:#080736;
+    color: white;
+    
+  }
+  button{
+  margin-left: 50px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  
+  }
+  #line_nm{
+    width: 250px;
+    height: 1px;
+    background-color: gray;
+    margin-top: 20px;
+  }
+  #two_text{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    color: white;
+    /* border: 1px solid black; */
+  }
+  .button__svg{
+    /* border: 1px solid red; */
+    height: 70px;
+  }
+/* solutions just for you */
+#main_sjfy{
+    margin: auto;
+    width: 85%;
+    margin-top: 30px;
+}
+
+#main_mid{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 30px;
+    margin: auto;
+}
+
+
+#div_abc{
+    /* border: 1px solid black; */
+    width: 340px;
+    height: auto;
+    margin: left;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+#learnMore{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 40px;
+    width: 250px;
+}
+#Int_div{
+    /* border: 1px solid red; */
+    width: 240px;
+}
+/* Additional add-ons and upgrade */
+#main_adi_add_on_and_upg{
+    /* border: 1px solid black; */
+    gap: 20px;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    margin-top: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+#div_addi{
+    /* border: 1px solid blue; */
+    width: 250px;
+    margin: auto;
+}
+#buttom_addi{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#btm_getstart{
+    background-image: url(https://www.optimizely.com/dist/f7701cee5b5147ab67dd.svg);
+    width: 100%;
+    height: 240px;
+    background-color: gold;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+}
+#title{
+        /* border: 1px solid red; */
+        width: 800px;
+        height: 150px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top:60px; 
+}
+#title_text{
+    margin: auto;
+}
+
+#btn-started{
+    margin: auto;
+}
+#btn_color{
+    background-color: #0037fe;
+    border: none;
+}
+

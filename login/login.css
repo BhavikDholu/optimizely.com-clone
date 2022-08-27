@@ -1,0 +1,83 @@
+#background{
+    width: 100%;
+    height: 96vh;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: relative;
+  }
+  #background>div{
+    border:400px solid #ffc105;
+    border-radius: 50%;
+    width: 100%;
+    height: 100vh;
+    transform: rotate(160deg);
+    margin-left: -75%;
+    margin-top: -45%;
+    opacity: .7;
+  }
+  #form{
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    width: 55%;
+    height: 460px;
+    box-shadow: rgba(171, 172, 173, 0.4) 0px 0px 0px 2px, rgba(228, 230, 231, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.664) 0px 1px 0px inset;
+    background-color: transparent;
+    border-radius: 10px;
+    /* opacity: .4; */
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  #form>div{
+    width: 50%;
+  }
+  #form>div:nth-child(2){
+    padding-top: 15px;
+  }
+  input{
+    width: 70%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    height: 23px;
+  }
+  label{
+    color: rgb(46, 45, 45);
+    font-size: .9rem;
+  }
+  #form>div>div{
+    display: flex;
+    align-items: center;
+  }
+  p{
+    margin-top: -10px;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  button{
+    margin-top: 25px;
+    background-color: #0037ff;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  button:hover{
+    background-color: blue;
+  }
+  h3{
+    margin-top: 40px;
+    color: rgb(53, 53, 53);
+  }

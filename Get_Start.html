@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getStarted</title>
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="Get_Start.css">
+    <link rel="stylesheet" href="./style/footer.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="Blue">
+    <h1 id="BlueH1">Ready to take your digital <br>
+        experiences to the next <br>
+        level?</h1>
+    </div>  
+
+    <!--************************************* Form **************************************************-->
+        <form action="" id="form">
+            <h1 style="padding-top: 50px; padding-left: 50px;">First, we need to know a couple of things <br> about you</h1>
+            <input type="text" placeholder="First name*" size="25px" style="width: 300px;">
+            <input type="text" placeholder="Last name*" style="width: 300px;"> <br><br><br>
+            <input type="text" placeholder="Work email*" style="width: 660px;"> <br><br><br>
+            <input type="text" placeholder="Company*" style="width: 300px;">
+            <input type="text" placeholder="Job title*" style=" width: 300px;"> <br><br><br>
+            <input type="text" placeholder="Phone number (optional)" style="width: 300px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="" id="" style="background: transparent; border: 0; margin-left: -37px;">
+                <option value="">India</option>
+                <option value="">US</option>
+                <option value="">UK</option>
+                <option value="">China</option>
+            </select> <br><br><br>
+            <input type="text" placeholder="What products are you interested in? (optional)" style="width: 300px;"> <br><br><br>
+            <p style="margin-left: 50px;">Optimizely will store and process your personal data as described in our <a href="" style="text-decoration: none;"> Privacy Policy </a>. <br> You can opt out at any time.</p>
+            <input type="submit" style="outline: none; color: white; border-radius: 30px; width: 100px; height: 35px; background-color: blue;" placeholder="Submit">
+        </form>
+
+    <!--************************************ White background ********************************************-->
+    <p style="margin-top: -280px; margin-left: 150px; font-size: 18px;"> <b> Hear from a real human! </b><br> <br> <br>
+       &nbsp;&nbsp;&nbsp; 1.    Fill out this form and tell us what you <br>
+       &nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp; can about your needs in the additional <br> 
+       &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp; info field. <br>
+        
+       &nbsp;&nbsp;&nbsp; 2.    An Optimizer will reach out to set up a <br>
+       &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp; discovery meeting with you. <br>
+        
+       &nbsp;&nbsp;&nbsp; 3.    Then, we will prepare and schedule you <br> 
+       &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;  a customized demo. </p>
+
+    <!--************************************ happy customers ************************************************-->
+    <div id="customer">
+        <h1>Trusted by 9,000+ businesses and millions of happy customers</h1>
+        <div id="logo">
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/ebay_logo.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/dolby_logo_2019.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/sme.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/new_era_logo.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/pizza_hut_logo.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/fjall_raven_logo.svg">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/filippa-k-wien.png?width=200&height=130">
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/moco-food-logo-blue.svg">
+            </div>
+        </div>
+        <button>See our customer stories</button>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+    import navbar from "./components/navbar.js";
+    document.getElementById("navbar").innerHTML = navbar();
+    import footer from "./components/footer.js";
+    document.getElementById("footer").innerHTML = footer();
+
+    let user = JSON.parse(localStorage.getItem("user"))||0;
+  if(user!=0){
+    let append = document.getElementById("login_span");
+    append.innerHTML=null;
+    append.innerText=user.name;
+  }
+</script>
