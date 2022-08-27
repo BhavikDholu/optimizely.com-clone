@@ -58,7 +58,7 @@ let footer = () => {
     </div>
   </div>
   <div id="footer-bottom">
-    <div id="text-div">
+    <div id="footer-bottom-text-div">
       <p>© 2022 Optimizely, Inc. All Rights Reserved.</p>
       <p>Privacy policy</p>
       <p>Website terms of use</p>

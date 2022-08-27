@@ -90,6 +90,7 @@
   display: flex;
   width: 100%;
   margin: auto;
+  margin-bottom: 0;
 }
 #digital-black {
   width: 32%;
@@ -133,6 +134,7 @@
   display: flex;
   width: 100%;
   font-size: 16px;
+  text-decoration: none;
 }
 
 #text-div a:hover {
@@ -143,4 +145,242 @@
   width: 7%;
   margin-left: 9px;
   fill: white;
+}
+
+/* content */
+
+#content {
+  background-color: #861dff;
+  display: flex;
+  width: 100%;
+  color: white;
+}
+.content-row {
+  width: 32%;
+  text-align: justify;
+}
+
+.content-row a {
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+  margin: 40px 0 0px 12%;
+}
+
+.content-row a:hover {
+  color: rgb(4, 4, 48);
+  gap: 30px;
+}
+.content-row svg {
+  width: 9%;
+  fill: white;
+}
+
+.content-row p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 14px 1% 0px 12%;
+}
+
+.content-button-div {
+  display: flex;
+  margin: 18px 0 0 12%;
+}
+
+.content-button-div a {
+  margin: 0px 10px 10px 0;
+  font-size: 16px;
+  border: 1px solid white;
+  padding: 5px 18px;
+  border-radius: 100px;
+}
+
+.content-button-div a:hover {
+  background-color: white;
+}
+
+/* explore */
+
+#explore-div {
+  width: 91%;
+  margin-left: 4%;
+  display: flex;
+  gap: 15px;
+}
+#explore-heading {
+  font-size: 39px;
+  width: 92%;
+  margin: 6% auto;
+}
+.explore-row {
+  width: 32.5%;
+}
+
+.explore-row h4 {
+  font-size: 25px;
+}
+
+.explore-row p {
+  font-size: 18px;
+}
+.explore-row > div {
+  display: flex;
+  width: 50%;
+  color: blue;
+}
+.content-row > span {
+  display: flex;
+  flex-direction: row;
+}
+
+.explore-row svg {
+  width: 10%;
+  margin-left: 20px;
+  fill: blue;
+}
+
+/* advertisement */
+
+#addvertise-div {
+  width: 91%;
+  margin: 10%;
+  margin-left: 4%;
+  display: flex;
+}
+
+.addvertise-row {
+  width: 33%;
+}
+.addvertise-row a > div {
+  width: 70%;
+  margin: 10% auto;
+}
+
+.addvertise-row a {
+  text-decoration: none;
+}
+.addvertise-row span {
+  display: flex;
+  justify-content: end;
+  margin: 15%;
+}
+
+.addvertise-row span:hover {
+  margin-right: 2%;
+}
+
+.div-stats h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #ffcc00;
+  margin: 0px;
+}
+
+.div-stats p {
+  color: white;
+}
+
+#addvertise-div > :first-child {
+  background-color: black;
+}
+#addvertise-div > :nth-child(2) {
+  background-color: #9356f6;
+}
+
+#addvertise-div > :nth-child(3) {
+  background-color: #0037ff;
+}
+.div-stats-white {
+  fill: white;
+}
+
+/* Getstared */
+
+#getstarted {
+  width: 90%;
+  margin: 10%;
+  margin-left: 4%;
+  display: flex;
+}
+
+#getstarted-blue {
+  background-color: blue;
+  width: 4%;
+}
+#getstarted-black {
+  width: 48%;
+  color: white;
+  background-color: black;
+}
+#getstarted-black div {
+  width: 80%;
+  margin: auto;
+}
+#getstarted-green {
+  width: 48%;
+  background-color: #3be081;
+}
+
+#getstarted-green div {
+  width: 90%;
+  margin: auto;
+}
+
+#getstarted-green form {
+  display: grid;
+  gap: 20px;
+  overflow: hidden;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#email {
+  width: 170%;
+}
+
+#intrest-div {
+  margin: 0 0 15px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#firstname,
+#lastname,
+#email,
+#company,
+#job-title,
+#phone,
+form > select,
+form textarea {
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 2px solid;
+  color: black;
+  padding: 10px;
+}
+form > input::placeholder {
+  color: black;
+}
+form textarea {
+  border: 1px solid black;
+}
+
+#yes,
+#no {
+  margin-right: 10px;
+  display: flex;
+  justify-self: start;
+}
+#submit {
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 22px;
+  padding: 11px 32px 11px 32px;
+  font-size: 22px;
+  width: 50%;
+  color: white;
+  text-align: center;
+  margin-bottom: 33%;
 }

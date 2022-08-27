@@ -44,8 +44,8 @@ let navbar = () => {
     </li>
   </ul>
 </div>
-<div id="getstarted">
-  <button><a href="./Get_Start.html">Get started</button>
+<div id="navbar-getstarted">
+  <button>Get started</button>
 </div>`;
 };
 
