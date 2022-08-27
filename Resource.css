@@ -1,0 +1,93 @@
+
+#DEP_1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding-top: 50px;
+    text-decoration: none;
+    font-family: "TT Commons Book",Arial,sans-serif;
+    border-bottom: 1px solid gray;
+    height:240px;
+    /* margin-bottom: 50px;     */
+}
+#heading_d{
+    color:blue;
+    
+}
+
+    #txt{
+    /* border: 1px solid gray; */
+    width: 200px;
+    height: 200px;
+    padding-left:20px;
+    text-align: left;
+    border-left: 1px solid gray;
+    margin-left: 20px;
+}
+    #text{
+    /* border: 1px solid red; */
+    width: 500px;
+    font-size: .9rem;
+    text-align: left;
+    }
+    .btn_seven{
+     padding: 9px;
+     border: 1px solid blue;
+     border-radius: 20px;
+     margin-top: 5px;
+     color: blue;
+     
+    }
+    .btn_seven:hover{
+     background-color: blue;
+     color: white;
+    }
+    .anch_five{
+     text-decoration: none;
+    }
+   .anch_five:hover{
+    text-decoration: underline;
+   }
+  /* bottom div start from here */
+    #heading_btm{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+
+    }
+    #heading_inner{
+        margin-left: 200px;
+        
+    }
+   #btm_main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: auto;
+    gap: 10px;
+   }
+
+   .text_btm{
+    text-decoration:none;
+    font-family: "TT Commons Book",Arial,sans-serif;
+
+   }
+
+   .img_btm{
+    height: 140px;
+    border-radius: 10px;
+    /* border: 1px solid orange; */
+    margin-left: 20px;
+    }
+    .sizeofdiv{
+     /* border: 1px solid blue; */
+     width: 90%;
+     margin: auto;
+    }
+    #btm_line{
+        border-bottom: .5px solid gray;
+        width: 70%;
+        margin: auto;
+    }

@@ -2,12 +2,14 @@
         
     /* border: 1px solid red; */
     margin: auto;
-    margin-top: 150px;
+    margin-top: 70px;
 }
 #heading>h1{
-    margin-left: 110px;
+    margin-left: 130px;
     margin-bottom: 0px;
+    font-size: 40px;
 }
+
 #container{
     display: grid;
     grid-template-columns: repeat(3,2fr);
@@ -61,9 +63,9 @@
     width: 250px;
     margin: auto;
   }
-  img{
+  /* img{
     height: 20px;
-  }
+  } */
   .img_div{
     /* border: 1px solid rgb(118, 20, 216); */
     height: 30px;
@@ -84,13 +86,23 @@
   .text_tickmark{
     margin-top: 0px;
   }
-  .btn_pp{
+  #btn_div_tff{
+    /* border:1px solid red; */
+    width: 170px;
+    margin: auto;
+    margin-top: 600px;
+   }
+
+  #btn_one{
   background-color:#0037fe;
   color: white;
   border: 0px;
-  }
+  padding: 10px;
+  margin-left: 50px;
+  border-radius: 20px;
+ }
 
-  
+
 /* better together section */
 
 #gray_line{
@@ -140,9 +152,47 @@ height: 30px;
     margin: auto;
     margin-top: 50px;
 }
+/* ------------------------------------- */
 .btn_pp{
     height: 50px;
+    background-color: #0037fe;
+    border: 0px;
+    color:white;
+    border-radius: 30px;
+    margin-left: 50px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  
 }
+.btn-div-1{
+    background-color: #0037fe;
+    color: white;
+
+}
+#btn_div-2{
+    /* border: 1px solid red; */
+    width: 250px;
+    margin: auto;
+    margin-top: 590px;
+}
+
+.btn_div-3{
+    /* border: 1px solid red; */
+    width: 250px;
+    margin: auto;
+    margin-top: 260px;
+   }
+.btn_div-4{
+    width: 300px;
+    margin: auto;
+    margin-top: 235px;  
+}
+.btn_div-5{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+ 
 
 
 /* upper border  */
@@ -170,16 +220,8 @@ height: 30px;
   #need_more{
     margin-left: 0px;
     background-color:#080736;
-    color: white;
-    
-  }
-  button{
-  margin-left: 50px;
-  padding: 10px 30px;
-  border-radius: 50px;
-  
-  }
-  #line_nm{
+    color: white;}
+#line_nm{
     width: 250px;
     height: 1px;
     background-color: gray;
@@ -230,6 +272,12 @@ height: 30px;
     /* border: 1px solid red; */
     width: 240px;
 }
+.button__svg:hover{
+ margin-left: 10px;
+}
+a{
+ text-decoration: none ;
+}
 /* Additional add-ons and upgrade */
 #main_adi_add_on_and_upg{
     /* border: 1px solid black; */
@@ -250,13 +298,14 @@ height: 30px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
-#btm_getstart{
-    background-image: url(https://www.optimizely.com/dist/f7701cee5b5147ab67dd.svg);
-    width: 100%;
+#btm_img_div{
+    background-image: url(./optimizelyImages/bottomImage.png);
     height: 240px;
     background-color: gold;
     background-repeat: no-repeat;
-    /* border: 1px solid red; */
+    border: 1px solid yellow;
+    margin: auto;
+    margin-bottom: 70px;
 }
 #title{
         /* border: 1px solid red; */
@@ -265,17 +314,26 @@ height: 30px;
         margin: auto;
         display: flex;
         justify-content: space-between;
-        margin-top:60px; 
+        margin-top: 50px;
 }
-#title_text{
-    margin: auto;
-}
+/* #title_text{
+    margin-left:0px;
+    border: 1px solid blue;
+} */
 
-#btn-started{
+#btn-btm{
     margin: auto;
+   
+    
 }
 #btn_color{
-    background-color: #0037fe;
+       background-color: #0037fe;
     border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    color: white;
+}
+#btn_color:hover{
+    background-color: rgb(4, 4, 102);
 }
 
