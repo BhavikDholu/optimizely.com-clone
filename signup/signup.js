@@ -17,5 +17,6 @@ function getdata(){
     }
    data.push(user);
    localStorage.setItem("UserData",JSON.stringify(data));
-    
+   alert("Sign Up successfully!");
+    window.location.href="./login.html";
 }

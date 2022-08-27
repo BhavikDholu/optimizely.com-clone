@@ -72,3 +72,10 @@ button:hover,
 img:hover {
   cursor: pointer;
 }
+a{
+  color: black;
+  text-decoration: none;
+}
+#getstarted a{
+  color: white;
+}

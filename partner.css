@@ -166,12 +166,12 @@ body{
 #even_more>div:nth-child(2){
     margin-top: 8%;
 }
-a{
+#even_more>div>p>a,#just_for p>a{
     text-decoration: none;
     color: blue;
     margin-right: 20px;
 }
-a:hover{
+#even_more>div>p>a:hover,#just_for p>a:hover{
     color: black;
     margin-right: 30px;
 }

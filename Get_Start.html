@@ -88,4 +88,11 @@
     document.getElementById("navbar").innerHTML = navbar();
     import footer from "./components/footer.js";
     document.getElementById("footer").innerHTML = footer();
+
+    let user = JSON.parse(localStorage.getItem("user"))||0;
+  if(user!=0){
+    let append = document.getElementById("login_span");
+    append.innerHTML=null;
+    append.innerText=user.name;
+  }
 </script>

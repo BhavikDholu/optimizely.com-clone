@@ -1,21 +1,22 @@
 let navbar = () => {
-  return ` <div id="navlogo">
+  return ` <div id="navlogo"><a href="./index.html">
   <img
     src="https://www.optimizely.com/globalassets/02.-global-images/navigation/optimizely_logo_navigation.svg"
     alt="logo"
   />
+  </a>
 </div>
 <div id="pages">
   <ul>
     <li><button>Products</button></li>
-    <li><button>Plans</button></li>
+    <li><button><a href="./Plans.html">Plans</a></button></li>
     <li><button>Resources</button></li>
-    <li><button>Partners</button></li>
+    <li><button><a href="./partners.html">Partners</a></button></li>
   </ul>
 </div>
 <div id="searchnav">
   <ul>
-    <li><button>Support</button></li>
+    <li><button><a href="./Support.html">Support</a></button></li>
     <li>
       <button>
         <svg
@@ -38,13 +39,13 @@ let navbar = () => {
           src="https://www.optimizely.com/contentassets/19e2441ca72d4ea9a3f17e5f3a92bd16/login.svg"
           alt="login"
         />
-        <span>Login</span>
+        <span id="login_span"><a href="./login.html">Login</a></span>
       </button>
     </li>
   </ul>
 </div>
 <div id="getstarted">
-  <button>Get started</button>
+  <button><a href="./Get_Start.html">Get started</button>
 </div>`;
 };
 
