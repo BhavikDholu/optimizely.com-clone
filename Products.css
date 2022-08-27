@@ -1,0 +1,177 @@
+
+#DEP_1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding-top: 50px;
+    font-family: "TT Commons Book",Arial,sans-serif;
+    
+    
+}
+    #txt{
+    /* border: 1px solid gray; */
+    width: 150px;
+    padding-left:0px;
+    text-align: left;
+    border-left: 1px solid gray;
+}
+    #text{
+    /* border: 1px solid red; */
+    width: 500px;
+    font-size: .9rem;
+    font-size: inherit;
+    font-weight: inherit;
+    text-align: left;
+    
+    }
+    #bluetext{
+    color: blue;
+    font-size: 20px;
+    
+    }
+    #bluetext:hover{
+     color: black;
+    }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    width: 25px;
+    margin: auto;
+}
+#DEP_2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    font-family: "TT Commons Book",Arial,sans-serif;
+    color: black;
+}
+.line-a{
+    /* border: 1px solid black; */
+    width: 90%;
+    font-size: 12px;
+    margin-top: 0px;
+    display: flex;
+}
+
+.div_mpw{
+/* border: 1px solid green; */
+width: 220px;
+}
+.img_icon_mpw{
+    /* border: 1px solid orange; */
+    margin-top: 15px;
+}
+.text_DEP_2{
+    padding-left: 10px;
+}
+
+.Arrow_mpw{
+    /* border: 1px solid red; */
+    margin: auto;
+
+}
+.P_tag{
+    margin-left: 30px;
+}
+
+#DEP_3{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    font-family: "TT Commons Book",Arial,sans-serif;
+}
+
+
+p{
+    font-size: small;
+}
+h2{
+font-size: small;
+}
+h4{
+font-size: small;
+
+}
+.am_blue{
+color: blue;
+margin-left: 20px;
+}
+/* bottom section */
+#line{
+width: 70%;
+border: 1px solid rgb(204, 203, 203);
+margin: auto;
+margin-top: 30px;
+}
+
+.button__svg:hover{
+
+    margin-left: 10px;
+    width: 100px;
+
+    }    
+    .button__btm:hover{
+        margin-left: 10px;
+       
+    }
+
+    #buttom_try{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        /* border: 1px solid red; */
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+        /* font-family: "TT Commons Book",Arial,sans-serif; */
+        
+    }
+    .check_try{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+         width: 150px;
+         /* border: 1px solid black; */
+         margin: auto;
+         /* font-family: "TT Commons Book",Arial,sans-serif; */
+    }
+    .arrow_btm_try{
+        /* border: 1px solid blue; */
+        margin: auto;
+        width: 30px;
+        font-family: "TT Commons Book",Arial,sans-serif;
+    }
+    .button__btm_try:hover{
+        margin-left: 10px;
+       
+    }
+
+    #top_div{
+        /* border: 1px solid black; */
+        display: flex;
+        width: 330px;
+     
+            }
+            .buttom_top{
+             /* border: 1px solid red; */
+             margin-left: 300px;  
+            }
+      
+        #arrow_div{
+         /* border: 1px solid green ; */
+         margin: auto;
+        
+        }
+        #arrow_div:hover{
+         margin-right  : 10px;
+        }
+        

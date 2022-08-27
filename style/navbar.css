@@ -1,0 +1,74 @@
+#navbar {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  justify-content: space-around;
+  align-items: center;
+}
+/* #navlogo {
+} */
+#pages > ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+}
+#pages button {
+  border: none;
+  font-size: 14px;
+  background: none;
+  padding: 20px 0px;
+  height: 100%;
+}
+#pages button:hover {
+  color: blue;
+  border-bottom: 5px solid blue;
+}
+#pages {
+  padding-top: 5px;
+}
+
+#searchnav > ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+}
+#searchnav button {
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  background: none;
+  padding: 20px 0px;
+}
+#searchnav button:hover {
+  color: blue;
+  border-bottom: 5px solid blue;
+}
+#searchnav {
+  margin-left: 10%;
+  padding-top: 5px;
+}
+
+#searchnav img {
+  margin-right: 3px;
+}
+#getstarted > button {
+  border: none;
+  border-radius: 25px;
+  background-color: #0037ff;
+  color: white;
+  padding: 14px 32px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+}
+#getstarted > button:hover{
+  background-color: blue;
+}
+button:hover,
+img:hover {
+  cursor: pointer;
+}

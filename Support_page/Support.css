@@ -1,0 +1,349 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Intro */
+
+#intro{
+    display: grid;
+    grid-template-columns: 6% 45% 49%;
+    margin-top: 30px;
+}
+#intro>div:nth-child(1){
+    background-color: #080736;
+}
+#intro>div:nth-child(3){
+    background-color: #f0f2f3;
+    padding-left: 10%;
+}
+#intro>div:nth-child(3)>h1{
+    font-size: 50px;
+    margin-top: 25%;
+}
+#intro>div:nth-child(3)>p{
+    font-size: 20px;
+    width: 90%;
+    margin-top: -25px;
+}
+#intro>div>img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Options */
+
+#option{
+    width: 85%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    cursor: pointer;
+}
+#option>div>svg{
+    margin: 20px;
+    padding-left: 75%;
+}
+#option>div>svg:hover{
+    padding-left: 80%;
+}
+.desc{
+    height: 50%;
+    padding: 5% 10%;
+}
+.desc>p{
+    margin-top: -10px;
+    font-size: 17px;
+}
+#option>div:nth-child(1){
+    background-color: #ff8110;
+}
+#option>div:nth-child(2){
+    background-color: #861dff;
+    color: white;
+}
+#option>div:nth-child(3){
+    background-color: #445669;
+    color: white;
+}
+#option>div:nth-child(4){
+    background-color: #00ccff;
+}
+#option>div:nth-child(5){
+    background-color: #0037ff;
+    color: white;
+}
+#option>div:nth-child(6){
+    background-color: #ffcc00;
+}
+#option>div:nth-child(7){
+    background-color: #445669;
+    color: white;
+}
+#option>div:nth-child(8){
+    background-color: #861dff;
+    color: white;
+}
+#option>div:nth-child(9){
+    background-color: #ff8110;
+}
+
+/* Trusted customer */
+
+#customer{
+    width: 85%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+#logo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px 20px;
+    text-align: center;
+    margin-top: 4%;
+}
+#logo>div>img{
+    width: 40%;
+}
+#customer>h1{
+    text-align: start;
+    font-size: 40px;
+}
+#customer>button{
+    margin: 2% auto;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    color: #083cff;
+    background-color: #ccd7ff;
+    cursor: pointer;
+}
+#customer>button:hover{
+    background-color: #0037ff;
+    color: white;
+}
+
+/* Features */
+
+.features{
+    width: 85%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.image>img{
+    width: 100%;
+    border-radius: 10px;
+}
+.detail{
+    height: auto;
+    padding-left: 10%;
+}
+.detail>h1{
+    font-size: 40px;
+    margin-top: 25%;
+}
+.detail>p{
+    font-size: 18px;
+    margin-top: -10px;
+}
+.detail>button{
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #0037ff;
+    cursor: pointer;
+}
+.detail>button:hover{
+    background-color: #022b9c;
+}
+
+/* Words by CTO */
+
+#words{
+    width: auto;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: #00ccff;
+}
+#text>h1{
+    width: 75%;
+}
+#text>p{
+    font-size: 18px;
+}
+#text>p:nth-child(3){
+    margin-top: -15px;
+}
+
+/* Here to Help */
+
+#parent{
+    width: 85%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#picture{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+}
+#picture>img{
+    width: 90%;
+    height: 90%;
+}
+#content{
+    padding-left: 5%;
+}
+.info{
+    display: none;
+    padding-right: 5%;
+}
+#content>h1{
+    font-size: 40px;
+}
+.collapsible{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1%;
+    border: none;
+    border-bottom: 2px solid #999999;
+    color: #999999;
+    background-color: transparent;
+    padding: 3%;
+}
+.text>p{
+    font-size: 18px;
+}
+.text>p>span{
+    color: #5a73ff;
+    cursor: pointer;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contact>div>p:nth-child(1){
+    font-weight: bolder;
+    font-size: 18px;
+}
+.contact>div>p:nth-child(2){
+    font-size: 17px;
+    margin-top: -15px;
+} 
+
+/* Form */
+
+#form{
+    width: 85%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 5% 45% 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#form>div:nth-child(1){
+    background-color: #0037ff;
+}
+#contact_us{
+    color: white;
+    background-color: #080736;
+    padding: 5% 10%;
+}
+#contact_us>h1{
+    font-size: 40px;
+}
+#contact_us>p{
+    font-size: 18px;
+}
+#fill_form{
+    padding: 0 8%;
+    background-color: #3be081;
+}
+form>div{
+    display: grid;
+    grid-template-areas:
+    "fn ln"
+    "mail mail"
+    "c tit"
+    "no cou";
+    gap: 50px 15px;
+    margin-top: 8%;
+}
+form>div>input{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 10px;
+}
+#first_name{
+    grid-area: fn;
+}
+#last_name{
+    grid-area: ln;
+}
+#email{
+    grid-area: mail;
+}
+#company{
+    grid-area: c;
+}
+#title{
+    grid-area: tit;
+}
+#number{
+    grid-area: no;
+}
+#country{
+    grid-area: cou;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+#interest{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+#submit{
+    background-color: #0037ff;
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #022b9c;
+}
+form>p:nth-child(2){
+    font-size: 18px;
+    color: #727975;
+    margin-top: 30px;
+}   
+form>p:nth-child(4){
+    font-size: 1rem;
+}
+form>p>span{
+    color: #2b60ec;
+    cursor: pointer;
+}
