@@ -6,73 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>getStarted</title>
     <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="Get_Start.css">
     <link rel="stylesheet" href="./style/footer.css">
-    <style>
-        #Blue{
-            background-color: rgb(1, 1, 48);
-            color: white;
-            height: 370px;
-        }
-        #BlueH1{
-           padding-top: 110px;
-           padding-left: 100px;
-           font-size: 47px;
-        }
-        /* ***************************************************** Form *********************************** */
-        #form{
-            background-color: rgb(242, 242, 242);
-            width: 750px;
-            margin-top: -300px;
-            margin-left: 700px;
-            padding-bottom: 70px;
-        }
-        input{
-            border: 0;
-            outline: 0;
-            background: transparent;
-            border-bottom: 1px solid black;
-            margin-left: 50px;
-        }
-
-  /* **************************************************** happy customers ********************************* */
-  #customer{
-    width: 85%;
-    margin: auto;
-    margin-top: 10%;
-    text-align: center;
-}
-#logo{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 50px 20px;
-    text-align: center;
-    margin-top: 4%;
-}
-#logo>div>img{
-    width: 40%;
-}
-#customer>h1{
-    text-align: start;
-    font-size: 40px;
-}
-#customer>button{
-    margin: 2% auto;
-    padding: 10px 25px;
-    font-size: 16px;
-    font-weight: 500;
-    border: none;
-    border-radius: 50px;
-    color: #083cff;
-    background-color: #ccd7ff;
-    cursor: pointer;
-}
-#customer>button:hover{
-    background-color: #0037ff;
-    color: white;
-}
-
-
-    </style>
 </head>
 <body>
     <div id="navbar"></div>
@@ -153,4 +88,11 @@
     document.getElementById("navbar").innerHTML = navbar();
     import footer from "./components/footer.js";
     document.getElementById("footer").innerHTML = footer();
+
+    let user = JSON.parse(localStorage.getItem("user"))||0;
+  if(user!=0){
+    let append = document.getElementById("login_span");
+    append.innerHTML=null;
+    append.innerText=user.name;
+  }
 </script>

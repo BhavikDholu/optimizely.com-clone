@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="Plans.css"/>
     <link rel="stylesheet" href="./style/navbar.css"/>
     <link rel="stylesheet" href="./style/footer.css"/>
+
+
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="Plans.css">
+    <link rel="stylesheet" href="./style/footer.css">
 
 </head>
 <body>
@@ -471,4 +477,15 @@
     document.getElementById("navbar").innerHTML = navbar();
     import footer from "./components/footer.js";
     document.getElementById("footer").innerHTML = footer();
+
   </script>
+
+
+    let user = JSON.parse(localStorage.getItem("user"))||0;
+  if(user!=0){
+    let append = document.getElementById("login_span");
+    append.innerHTML=null;
+    append.innerText=user.name;
+  }
+</script>
+

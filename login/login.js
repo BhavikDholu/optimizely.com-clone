@@ -10,6 +10,7 @@ let getdata = ()=>{
            alert("Login successfully");
            localStorage.setItem("user",JSON.stringify(ele));
            flag = false;
+           window.location.href="./index.html";
        }
     })
     if(flag){
@@ -17,6 +18,7 @@ let getdata = ()=>{
     }
   }else{
     alert("please Sign Up first");
+    window.location.href="./signUp.html";
   }  
     
 }
