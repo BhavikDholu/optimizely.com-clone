@@ -8,9 +8,9 @@ let navbar = () => {
 </div>
 <div id="pages">
   <ul>
-    <li><button>Products</button></li>
+    <li><button><a href="./Products.html">Products</a></button></li>
     <li><button><a href="./Plans.html">Plans</a></button></li>
-    <li><button>Resources</button></li>
+    <li><button><a href="./Resource.html">Resources</a></button></li>
     <li><button><a href="./partners.html">Partners</a></button></li>
   </ul>
 </div>
