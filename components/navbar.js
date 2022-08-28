@@ -45,7 +45,7 @@ let navbar = () => {
   </ul>
 </div>
 <div id="navbar-getstarted">
-  <button>Get started</button>
+  <button><a href="./Get_Start.html">Get started</a></button>
 </div>`;
 };
 
